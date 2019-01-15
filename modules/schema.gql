@@ -1,0 +1,10 @@
+type Query {
+  url(short: String): Shortener
+}
+
+type Shortener {
+  short: String
+  long: String
+  title: String
+  count: Int
+}
