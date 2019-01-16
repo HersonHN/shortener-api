@@ -1,0 +1,7 @@
+{
+  "name": "shortener-api",
+  "public": true,
+  "env": {
+    "SHORTENER_CONNECTION_STRING": "@shortener-api-db"
+  }
+}
