@@ -12,6 +12,8 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
+app.use(express.static('public'));
+
 app.use('/graphql', require('./modules/graphql'));
 app.post('/create-short-url', require('./modules/create-short-url'));
 app.get('/:short', require('./modules/load-url'));
