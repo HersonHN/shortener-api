@@ -1,7 +1,7 @@
 
 # URL Shortener
 
-An url shortener who does the same thing every other does, but this one is open source. :cool:
+An url shortener who does the same thing every other does, but this one is open source. :sunglasses:
 
 It uses Express.js, GraphQL, Vue, and CouchDB to work.
 
