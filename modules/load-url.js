@@ -9,7 +9,6 @@ const page404 = fs.readFileSync(path.join(__dirname, '../pages/404.html'), 'utf8
 module.exports = function (req, res, next) {
   let { short } = req.params;
 
-  console.log('short', short);
   if (short == 'graphql') return next();
 
   db.get(short)

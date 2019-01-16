@@ -1,5 +1,5 @@
 type Query {
-  url(short: String): Shortener
+  topHits: [Shortener]
 }
 
 type Shortener {
