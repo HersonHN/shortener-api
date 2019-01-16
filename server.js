@@ -1,4 +1,3 @@
-const isProduction = process.env.NODE_ENV == 'production';
 
 const express = require('express');
 const cors = require('cors');
@@ -13,7 +12,6 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.use(express.static('public'));
-
 app.use('/graphql', require('./modules/graphql'));
 app.post('/create-short-url', require('./modules/create-short-url'));
 app.get('/:short', require('./modules/load-url'));
