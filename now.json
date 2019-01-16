@@ -1,11 +1,11 @@
 {
   "name": "shortener-api",
   "public": true,
-  "files": [
-    "public"
-  ],
   "alias": [
     "s.herson.hn"
+  ],
+  "files": [
+    "modules", "pages", "public", "scripts", "server.js"
   ],
   "env": {
     "SHORTENER_CONNECTION_STRING": "@shortener-api-db"
